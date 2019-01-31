@@ -12,5 +12,5 @@ export default function ({ name, children }) {
         return <div> {children} </div>
       }}
     </AppContext.Consumer>
-  )
+  );
 }

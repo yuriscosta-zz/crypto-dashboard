@@ -35,7 +35,7 @@ function ControlButton({ name }) {
         </ControlButtonElement>
       )}
     </AppContext.Consumer>
-  )
+  );
 }
 
 export default function () {
@@ -46,5 +46,5 @@ export default function () {
       <ControlButton active name="dashboard" />
       <ControlButton name="settings" />
     </Bar>
-  )
+  );
 }
